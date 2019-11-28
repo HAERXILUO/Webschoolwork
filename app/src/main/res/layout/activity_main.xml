@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_1"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:src="@drawable/splash_logo" />
+
+    <Button
+        android:id="@+id/btn_1"
+        android:background="@drawable/btn_loge"
+        android:layout_centerHorizontal="true"
+        android:layout_width="240dp"
+        android:layout_marginStart="80dp"
+        android:layout_height="60dp"
+        android:drawableStart="@drawable/ic_user"
+        android:drawablePadding="5dp"
+        android:paddingLeft="30dp"
+        android:paddingRight="40dp"
+        android:layout_below="@+id/iv_1"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:text="用户名登陆" />
+
+    <Button
+        android:id="@+id/btn_2"
+        android:background="@drawable/btn_loge"
+        android:drawableLeft="@drawable/account_sina"
+        android:paddingLeft="30dp"
+        android:paddingRight="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/btn_1"
+        android:text="新浪微博" />
+
+    <Button
+        android:id="@+id/btn_3"
+        android:background="@drawable/btn_loge"
+        android:layout_centerHorizontal="true"
+        android:drawableLeft="@drawable/account_tencet"
+        android:paddingLeft="30dp"
+        android:paddingRight="40dp"
+        android:layout_width="240dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/btn_2"
+        android:textSize="20sp"
+        android:text="腾讯微博" />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_below="@+id/btn_3"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="25sp"
+        android:text="注册"/>
+
+
+</RelativeLayout>
